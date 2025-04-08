@@ -1,0 +1,30 @@
+Curso/Course: Java - Entra21
+Instituição/Instituition: SENAC
+
+Exercício - Verificar se string é valida // Exercise - Check if the string is valid
+
+PT-BR // Dada uma string s contendo apenas os caracteres '(', ')', '{', '}', '[' e ']', determine se a string de entrada é válida.
+Uma string de entrada é válida se:
+ 
+Os abertos devem ser fechados pelo mesmo tipo.
+Os abertos devem ser fechados na ordem correta.
+Cada fechado tem um aberto correspondente do mesmo tipo.
+Exemplos:
+1 - String = "()" = true
+2 - String = "(){}[]" = true
+3 - String = "({[]})" = true
+4 - String = "({)}" = False
+5 - String = "(}" = False
+
+EN-US // Given a s string with only '(', ')', '{', '}', '[' e ']' characters, determine if the entry string is valid.
+An entry string is valid if:
+
+The openning must be closed by the same type.
+The openning must be closed at the right order.
+Each closing have an openning corresponding the same type.
+Examples:
+1 - String = "()" = true
+2 - String = "(){}[]" = true
+3 - String = "({[]})" = true
+4 - String = "({)}" = False
+5 - String = "(}" = False
